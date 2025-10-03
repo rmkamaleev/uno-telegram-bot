@@ -1,0 +1,21 @@
+{
+  "name": "uno-telegram-bot",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Uno Telegram bot",
+  "license": "ISC",
+  "author": "rkamaleev",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "rm -rf dist && npx tsc",
+    "test": "node dist/test/basic-test.js"
+  },
+  "dependencies": {
+    "@types/node": "^24.6.2",
+    "dotenv": "^17.2.3",
+    "telegraf": "^4.16.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
